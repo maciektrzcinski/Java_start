@@ -41,7 +41,7 @@ public class QuadraticEquation {
 		}
 		return x2;
 	}
-	public String solution(){
+	public String printSolution(){
 		String solution = "";
 		if(getDelta() > 0){
 			solution = "Delta: "+getDelta()+",\nx1: "+getX1()+",\nx2: "+getX2();
