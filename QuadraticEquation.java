@@ -3,6 +3,15 @@ public class QuadraticEquation {
 	
 	private double a,b,c;
 	
+    public QuadraticEquation(){
+	}
+    public QuadraticEquation(double a){
+		this.a = a;
+	}
+    public QuadraticEquation(double a, double b){
+		this.a = a;
+		this.b = b;
+	}
 	public QuadraticEquation(double a, double b,double c){
 		this.a = a;
 		this.b = b;
