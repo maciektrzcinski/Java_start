@@ -1,20 +1,20 @@
 
 public class QuadraticEquation {
 	
-	private int a,b,c;
+	private double a,b,c;
 	
-	public QuadraticEquation(int a, int b,int c){
+	public QuadraticEquation(double a, double b,double c){
 		this.a = a;
 		this.b = b;
 		this.c = c;
 	}
-	public void setA(int a){
+	public void setA(double a){
 		this.a = a;
 	}
-	public void setB(int b){
+	public void setB(double b){
 		this.b = b;
 	}
-	public void setC(int c){
+	public void setC(double c){
 		this.c = c;
 	}
 	public double getDelta(){
